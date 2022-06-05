@@ -1,16 +1,13 @@
-## User Story
+**User Story**
 
-```
-AS AN employe
+Aa an employee
 
 I WANT to createa portfolio of my works so that employer's can view my projects to check my eligibilty as a web developer.
 
 
-## Acceptance Criteria
+**Acceptance Criteria**
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-```
 
 Employer should be able to view my previous work when they click on the images of my projects.
 
@@ -38,3 +35,4 @@ The following animation shows the web application's appearance and functionality
 
 ![portfolio demo](./assets/advanced-css-homework.gif)
 
+Author: Mohammad Mazumder (Tarik)
