@@ -1,0 +1,542 @@
+
+* {
+    margin:0;
+    padding:0;  
+  }
+  
+body {
+    font-family: Arial;
+    margin:0px;
+    background-color: white;
+    width:100%;
+}
+
+/* class selector to setup position, color, for header*/
+.header {
+    display: flex;
+    height: 60px;
+    background-color: black;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    min-width:100%;
+      
+}
+/* class selector to setup color,font,background and positions*/
+.name {
+
+    font-size: 35px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    background-color: orangered;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+/*class selctor to setup navigation properties*/
+.nav {
+    align-items: center;
+    margin-right: 40px;
+    justify-content: flex-end;
+
+}
+/*element selector within a calss selector ro setup properties for navigation tabs*/
+.nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color:white;
+    border-bottom:solid brown 3px;
+    padding-bottom: 4px;
+    padding-right:5px;
+    padding-left: 5px;
+    
+}
+
+/*hover effect on navigation tabs with 1 sec transition time*/
+.nav a:hover {
+    background-color: gray;
+    transition: 1s;
+}
+
+
+/* CSS for banner*/
+
+/*id selector to setup banner image*/
+
+#banner-image
+{
+    background: url('../Images/banner-image.jpg') no-repeat center center fixed;
+    height: 350px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    
+}
+
+.profile_pic {
+    height: 300px;
+    position:absolute;
+    top:7%;
+    left:3%;
+}
+
+.profile_sub_title {
+    position:absolute;
+    background-color: bisque;
+    top: 80%;
+    right: 4%;
+    font-size:40px;
+    
+}
+
+/*CSS for Introduction Part*/
+
+.introduction {
+    display: flex;
+}
+
+.introduction div {
+    margin-top: 40px;
+}
+
+ .about_me {
+     
+    font-size: 50px;
+    margin-right: 40px;
+    padding-right: 10px;
+    border-right: solid black 3px;
+    text-align: right;
+    margin-left: 250px;
+    
+}   
+
+.description {
+    margin-right: 100px;
+
+}
+
+.work_experience {
+    display: flex;
+    flex:1;
+
+}
+
+.work_experience div {
+    margin-top: 40px;
+}
+
+.work {
+     
+    font-size: 50px;
+    margin-right: 40px;
+    padding-right: 10px;
+    border-right: solid black 3px;
+    text-align: right;
+    margin-left: 255px;
+    width:125px; 
+    
+}   
+/*class sector to setup flex boxes in column direction*/
+.project{
+  
+    margin-right: 100px;
+    display:flex ;
+    flex-direction:column;
+    flex:1;
+    flex-wrap: wrap;
+
+}
+/* element selector within a class selector to remove margin and padding for that division*/
+.project div {
+    margin-top: 0px;
+    padding:0px;
+}
+
+
+/* CSS  FOR LARGE IMAGE*/
+
+.large {
+    display:flex;
+    flex:1;
+    align-content: center;
+    width: 100%;  
+    height: 700px;
+    border:solid brown 8px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index:999; 
+}
+
+    .large img {
+        width: 100%;
+    }
+    
+    .large:hover {
+        opacity: 0.5;
+        cursor: pointer;
+        transform: scale(1.1); 
+    }
+
+/* anchor element selector within a class selector to align it with the section*/
+.large a {
+    display:flex;
+    flex:1;
+    align-content: center;
+    width: 100%;  
+    height: 700px;
+    position: relative;
+    
+}
+
+
+
+/*class selector to position the text with % attributes*/
+
+.federal_election {
+    position:absolute;
+    background-color: bisque;
+    top: 80%;
+    left: 0%;
+    font-size:30px;
+    
+}
+
+
+
+/*CSS FOR SMALLER IMAGES*/
+
+.small{
+  
+    display:flex ;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    
+}
+
+
+.small div {
+    margin-top: 0px;
+    padding:0px;
+}
+
+
+/*CSS FOR FIRST CONTAINER WITH TWO SMALLER IMAGES*/
+
+.first_box{
+  
+    display:flex ;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px; 
+
+}
+
+
+.first_project, .lakesentrance {
+    display:flex;
+    flex:1;
+    align-content: center;
+    border:solid brown 8px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    position:relative;
+
+}
+
+.second_project, .bright {
+    display:flex;
+    flex:1;
+    align-content: center;
+    border:solid brown 8px;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+
+}
+
+
+.first_project img, .second_project img, .lakesentrance img, .bright img {
+     width: 100%;
+      height: 300px;
+    }
+
+
+.lakes_entrance,.great_occean, .phillip_island, .bright_city {
+    position:absolute;
+    background-color: bisque;
+    top: 60%;
+    left: 0%;
+    font-size:30px;
+   
+}
+
+
+.first_project a, .second_project a, .lakesentrance a, .bright a  {
+    display:flex;
+    flex:1;
+    align-content: center;
+    width: 100%;  
+    height: 300px;
+    position: relative;
+    
+}
+
+/*CSS for Second Box*/
+
+.second_box{
+  
+    display:flex ;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;  
+
+}
+
+/*CSS for contact ddetails*/
+
+.contact {
+    display: flex;
+    margin-top: 40px;
+}
+
+
+ .contact_me {
+     
+    font-size: 50px;
+    margin-right: 40px;
+    padding-right: 10px;
+    border-right: solid black 3px;
+    text-align: right;
+    margin-left: 205px;
+    
+}   
+
+.contact_details {
+    display:flex;
+    flex:1;
+    margin-right: 100px;
+}
+
+.contact_details ul {
+    display:flex;
+    flex:1;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    
+}
+
+li {
+    border-bottom:solid brown 3px;
+    padding-bottom: 4px;
+    padding-right:5px;
+    padding-left: 5px;
+    font-weight:bold;
+}
+
+
+
+/*CSS for hover effects on small images with z-index*/
+
+.first_project:hover, .second_project:hover, .lakesentrance:hover, .bright:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transform: scale(1.1); 
+    z-index: 99;
+}
+
+/* media query for header and top navigation*/
+
+@media screen and (max-width: 1070px) {
+    .introduction, .project, .contact {
+        margin-right: 60px;
+    }
+    .description, .contact .contact_details {
+        margin-right: 0px;
+    }
+
+}
+@media screen and (max-width: 786px) {
+    .header
+     {
+      flex-direction: column;
+      height: 80px;
+    }
+
+   .header .name {
+        display: flex;
+        font-size: 25px;
+        margin-left: 0px;
+        margin-bottom: 4px;
+        background-color:red;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        
+    }
+
+   .header .nav {
+        display: flex;
+        align-items: flex-end;
+    
+    }
+   .header .nav a {
+        margin-left: 40px;
+        text-decoration: none;
+        color:white;
+        border-bottom:solid brown 3px;
+        padding-bottom: 0px;
+        padding-right:0px;   
+        
+    }
+
+}
+/* media query for subtitle*/
+
+@media screen and (max-width: 486px) {
+    .profile_sub_title
+     {
+      font-size: 90%;
+      }
+
+}
+
+/* meida query for introduction part */
+
+@media screen and (max-width: 1070px) {
+    .introduction
+     {
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .introduction .about_me {
+        text-align: center;
+        margin: 0px;
+        border-right:0px;
+
+    }
+    
+}
+
+/*media query for work experience and project*/
+
+@media screen and (max-width: 1070px) {
+    .work_experience
+     {
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    }
+    .work_experience .work {
+    text-align: center;
+    margin: 0px;
+    border-right:0px;
+    display:flex;    
+    }
+}
+
+
+@media screen and (max-width: 786px) {
+   .large a {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+        .first_box, .second_box
+         {
+          flex-direction: column;
+          justify-content: flex-start;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-start;
+        }
+        .first_box .first_project, .second_box .lakesentrance {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    
+    .small,.first_box .second_project, .second_box .bright {
+        width: 100%;
+        }
+}    
+
+@media screen and (max-width: 1070px) {
+    .federal_election, .great_occean, .bright_city, .phillip_island,.lakes_entrance
+     {
+      font-size: 90%;
+      }
+
+}
+/*media query for contact details*/
+
+
+@media screen and (max-width: 1070px) {
+    .contact
+     {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .contact_me {
+        text-align: center;
+        margin: 0px;
+        border-right:0px;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+
+.contact .contact_me {
+    text-align: center;
+    border-right:0px;
+    font-size: 40px;   
+}
+}
+
+
+@media screen and (max-width: 1070px) {
+    .contact_me li
+     {
+        font-size: 10px;
+
+    } 
+    
+}
+
+@media screen and (max-width: 786px) {
+    .contact_details ul li
+     {
+        font-size: 12px;
+        border-bottom:solid brown 1px;
+        padding-bottom: 4px;
+        padding-right:5px;
+        padding-left: 5px;
+        font-weight:bold;
+
+    } 
+    
+}
+
+@media screen and (max-width: 490px) {
+    .contact_details ul li
+     {
+        font-size: 10px;
+        border-bottom:none;
+        padding-bottom: 1%;
+        padding-right:1%;
+        padding-left: 1%;
+        font-weight:100;
+
+    } 
+    
+}
